@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de seletores</title>
+    <link rel="stylesheet" href="css/05-seletores.css">
+</head>
+<body>
+    <h1>Exemplo de Seletores</h1>
+    <h2>Seletor de id</h2>
+
+    <p id="exemplo-paragrado-do-id">
+        O método <code>document.getElementById</code> é utilizado em JavaScript para acessar e manipular um elemento HTML com base no seu atributo <code>id</code>. Ele retorna uma referência ao primeiro elemento que possui o <code>id</code> especificado, permitindo que você altere seu conteúdo, estilo, ou adicione eventos de forma dinâmica. É uma das formas mais diretas e comuns de interagir com o DOM (Document Object Model).
+    </p>
+    <button onclick="estilizarParagrafo()">Estilizar o parágrafo adicionando uma classe de css</button>
+
+    <h2>Seletor de tag</h2>
+    <p>
+        O método <code>document.getElementsByTagName</code> é usado em JavaScript para obter uma coleção de todos os elementos HTML com a tag especificada, como <code>'div'</code>, <code>'p'</code>, ou <code>'li'</code>. Ele retorna uma coleção HTML (HTMLCollection) com todos os elementos correspondentes, permitindo que você acesse e manipule vários elementos ao mesmo tempo usando índices ou loops. Esse método é útil para aplicar alterações em grupo a elementos do mesmo tipo dentro da página.
+      </p>
+      <button onclick="alterarVisibilidadeTagP()">Alterar visibilidade parágrafos</button>
+
+    <script src="scripts/05-seletores.js"></script>
+</body>
+</html>

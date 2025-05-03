@@ -1,0 +1,10 @@
+.estilizar-paragrafo{
+    padding: 10px;
+    background-color: #121212;
+    color: #567483;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+/* <link rel="stylesheet" href="css/05-seletores.css"> */
