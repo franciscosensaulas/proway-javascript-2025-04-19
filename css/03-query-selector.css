@@ -1,0 +1,11 @@
+h2{
+    color: crimson;
+}
+
+#pessoa-juridica-cnpj {
+     display: none;
+}
+
+#pessoa-fisica-cpf{
+    display: none;
+}
