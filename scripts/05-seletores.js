@@ -159,12 +159,22 @@ document.addEventListener("keyup", adicionarAtalho);
 
 /*
 Exercícios:
-Ex. 1: Criar uma página com os seguintes elementos:
-- Label referenciando o id nome-pet ex.: for='idade-cliente'
-- Campo com o id nome-pet ex.: <input type="number" id="idade-cliente">
-- Criar um botão Obter por Id: que utiliza o getElementById e obtem o valor do campo digitado
-    Apresentando para o usuário com alert
-    Depois vc deve trocar cor da fonte do campo
+Ex. 1: 
+    HTML:
+        - Criar uma página com os seguintes elementos:
+            - Label referenciando o id nome-pet ex.: <label for='idade-cliente'>Idade</label>
+            - Campo com o id nome-pet ex.: <input type="number" id="idade-cliente">
+            - Criar um botão Obter por Id que chame a função apresentarPet() 
+            - Adicionar o script no html chamando o 'scripts/pet.js'
+
+    JAVASCRIPT
+        - Criar o arquivo pet.js dentro da pasta scripts
+        - Criar a função apresentarPet()
+        - Utilizar o getElementById para pegar o campo do nome do pet
+        - Obter o valor do campo do nome do pet (o valor que o usuário digitou)
+        - Apresentando o nome do pet para o usuário com alert
+        - Alterar a cor da fonte do campo para vermelho
+
  
 
 */
