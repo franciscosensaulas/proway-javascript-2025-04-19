@@ -7,4 +7,13 @@
     border-radius: 8px;
 }
 
-/* <link rel="stylesheet" href="css/05-seletores.css"> */
+/* estilizar os elementos por name="caixa" */
+[name="caixa"]{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color: #ffd87c;
+    width: 100px;
+    height: 100px;
+    margin: 10px 10px; /* ↑↓ ← → */
+}
